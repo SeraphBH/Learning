@@ -4,3 +4,9 @@ c:\users\seraph\documents\visual studio 2013\Projects\Learning\Learning\bin\Debu
 c:\users\seraph\documents\visual studio 2013\Projects\Learning\Learning\obj\Debug\Learning.csprojResolveAssemblyReference.cache
 c:\users\seraph\documents\visual studio 2013\Projects\Learning\Learning\obj\Debug\Learning.exe
 c:\users\seraph\documents\visual studio 2013\Projects\Learning\Learning\obj\Debug\Learning.pdb
+E:\perso D\Github\Learning\Learning\bin\Debug\Learning.exe.config
+E:\perso D\Github\Learning\Learning\obj\Debug\Learning.exe
+E:\perso D\Github\Learning\Learning\obj\Debug\Learning.pdb
+E:\perso D\Github\Learning\Learning\bin\Debug\Learning.exe
+E:\perso D\Github\Learning\Learning\bin\Debug\Learning.pdb
+E:\perso D\Github\Learning\Learning\obj\Debug\Learning.csprojResolveAssemblyReference.cache
