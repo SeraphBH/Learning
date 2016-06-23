@@ -170,8 +170,8 @@ class Program
         int x = 15;
         int y = 15;
         // variable pour suprimer les trainés de déplacement
-        int x1;
-        int y1;
+        int x1 = 3;
+        int y1 = 3;
 
         string maVoiture = "[]";
         string maCorrection = "  ";        
@@ -190,21 +190,25 @@ class Program
         {
 
             //Repositionement de la voiture en cas de hors cours
-            if (x <= 1 || x >= 25 || y <= 1 || y >= 20)
+            if (x <= 0 || x >= 58 || y <= 0 || y >= 21)
             {
-                x = 5;
-                y = 5;
+                Console.SetCursorPosition(x, y);
+                Console.WriteLine(maCorrection);
+                x = 30;
+                y = 10;
             }
 
             //positionement de la voiture
-            /*Console.SetCursorPosition(x, y);
+            Console.SetCursorPosition(x, y);
             Console.WriteLine(maVoiture);
             Console.SetCursorPosition(x1, y1);
-            Console.WriteLine(maCorrection);*/
+            Console.WriteLine(maCorrection);
 
             // affiche x et y en bas à droite du cadre
-            Console.SetCursorPosition(51, 22);
-            Console.WriteLine("x=" + x + " " + "y=" + y);
+            Console.SetCursorPosition(50, 22);
+            Console.WriteLine("x=" + x + " ");
+            Console.SetCursorPosition(56, 22);
+            Console.WriteLine("y=" + y + " ");
 
             if (Console.KeyAvailable)
             {
@@ -222,12 +226,12 @@ class Program
                         break;
                     case ConsoleKey.LeftArrow:
                         y1 = y;
-                        x = - 1;
+                        x = x - 1;
                         x1 = x + 2;
                         break;
                     case ConsoleKey.RightArrow:
                         y1 = y;
-                        x = + 1;
+                        x = x + 1;
                         x1 = x - 2;
                         break;
                     case ConsoleKey.Escape:
